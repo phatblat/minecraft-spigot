@@ -33,7 +33,15 @@ users:
 groups:
   default:
     permissions:
-      permissions.build: false
+      permissions.build: true
+      minecraft.command.gamemode: true
+      minecraft.command.list: true
+      minecraft.command.time: true
+      minecraft.command.tp: true
+      modifyworld.*: true
+    worlds:
+      minecraft:
+        gamemode: true
   admin:
     permissions:
       permissions.*: true
