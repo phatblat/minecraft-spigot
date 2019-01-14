@@ -4,6 +4,8 @@
 # http://www.spigotmc.org/wiki/spigot-installation/
 #
 
+MINECRAFT_VERSION=1.13.2
+
 cd "$( dirname "$0" )"
-java -Xms512M -Xmx1024M -XX:MaxPermSize=128M \
-	-jar spigot-1.8.5.jar
+java -Xms1g -Xmx2g \
+    -jar spigot-$MINECRAFT_VERSION.jar
