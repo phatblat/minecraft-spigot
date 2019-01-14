@@ -1,0 +1,42 @@
+groups:
+  Member:
+    default: true
+    info:
+      prefix: 'M: '
+      suffix: ''
+      build: false
+    options:
+      rank: '1000'
+      prefix: '&7'
+    permissions:
+    - essentials.rules
+    - minecraft.command.tell: false
+    - bukkit.command.teleport: true
+    - minecraft.command.list: true
+    - bukkit.command.list: true
+    inheritance: []
+    info: []
+  Admin:
+    default: false
+    info:
+      prefix: 'A: '
+      suffix: ''
+      build: false
+    permissions:
+      permissions.*: true
+    inheritance:
+    - Member
+    info: []
+users:
+  phatblat:
+    groups:
+    - Admin
+  8f37c0ac-a0ff-4d57-bad7-2c832aa1dd1e: # phatblat
+    groups:
+    - Admin
+    permissions:
+      permissions.*: true
+  f337873f-df36-46ec-a2bf-e07760efc657: # 19a
+    group: Admin
+  6928b4d7-b394-453e-8e72-097196825ba5: # benjaminpbutler
+    group: Admin
