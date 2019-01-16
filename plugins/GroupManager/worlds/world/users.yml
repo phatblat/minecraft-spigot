@@ -1,0 +1,17 @@
+users:
+  8f37c0ac-a0ff-4d57-bad7-2c832aa1dd1e:
+    lastname: phatblat
+    group: Admin
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
